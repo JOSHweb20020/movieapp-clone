@@ -56,7 +56,7 @@ buttonElement.onclick = function(event){
         const movies = data.results
         
         const movieBlock = createMovieContainer(movies)
-        moviesearchable.body.appendChild(movieBlock);
+        moviesearchable.appendChild(movieBlock);
         console.log('Data', data)
 
 
